@@ -1,0 +1,6 @@
+/bug-sec/node_modules
+/server/node_modules
+/bug-sec/package-lock.json
+/server/package-lock.json
+package-lock.json
+/node_modules

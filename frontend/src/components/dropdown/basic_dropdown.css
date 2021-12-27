@@ -1,0 +1,18 @@
+.dd-container {
+    width: 100px;
+    cursor: pointer;
+}
+
+.dd-label {
+    border: 1px solid #C4C4C4;
+    padding: 2px 8px;
+    -webkit-box-shadow: 5px -12px 46px -16px #C4C4C4; 
+    box-shadow: 5px -12px 46px -16px #C4C4C4;
+}
+
+.dd-items {
+    border: 1px solid #C4C4C4;
+    padding: 2px 8px;
+    -webkit-box-shadow: 5px -12px 16px -16px #C4C4C4; 
+    box-shadow: 5px -12px 16px -16px #C4C4C4;
+}

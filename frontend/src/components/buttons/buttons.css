@@ -1,0 +1,27 @@
+.close-btn {
+    background-color: transparent;
+
+}
+.close-btn:hover, .basic-btn:hover {
+    cursor: pointer;
+}
+
+.basic-btn {
+    width: 180px;
+    background-color: #fa563e;
+    padding: 2px 8px;
+    line-height: 25px;
+    outline: none;
+    box-shadow: none;
+}
+
+.small-btn {
+    width: 80px;
+    line-height: 17px;
+    margin: 0 auto;
+    display: block;
+}
+
+.small-btn > img {
+    width: 12px;
+}

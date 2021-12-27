@@ -1,0 +1,48 @@
+table {
+    width: 100%;
+    background-color: #5c5554;
+}
+
+table > thead {
+    background-color: darkgrey;
+}
+
+table > thead > tr > th {
+    text-align: left;
+}
+
+table > thead > tr > th:nth-child(n+2):nth-child(-n+4):hover {
+    cursor: pointer;
+}
+
+table > tbody > tr > td:first-child > img {
+    border-radius: 25px;
+    height: 13px;
+}
+.relativeBody {
+    height: 400px;
+    position: relative
+}
+.empty-table {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.permission {
+    border: 1px solid black;
+    width: fit-content;
+}
+
+.admin {
+    background-color: red;
+}
+
+.contributer {
+    background-color: lightblue;
+}
+
+.user {
+    background-color: black;
+}

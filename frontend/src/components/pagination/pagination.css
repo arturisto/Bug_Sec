@@ -1,0 +1,20 @@
+.pagination-container {
+    display: flex;
+}
+
+.pagination-container > div {
+    padding: 3px 8px;
+}
+.pagination-container > div.active {
+    background: #fa563e;
+    border-radius: 25px;
+}
+
+.pagination-container > div:hover {
+    cursor: pointer;
+}
+
+.pagination-container > div:first-child, .pagination-container > div:last-child {
+    background: #454a4d;
+    border-radius: 25px;
+} 

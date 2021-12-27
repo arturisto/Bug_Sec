@@ -1,0 +1,19 @@
+.popup-container.confirm{
+    left: 40vw;
+    width: 305px;
+}
+
+.popup-container.confirm > div:first-child {
+    margin-left: auto;
+    width: 15px;
+}
+
+.popup-container.confirm > .buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+
+.popup-container.confirm > .buttons-container > button {
+    width: 45px;
+}
