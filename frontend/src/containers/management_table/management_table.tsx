@@ -34,16 +34,12 @@ const ManagementTable:React.FC<IProps> = (props) => {
         dispatch(Actions.toggleDimmer());
         props.popupFunc(tableData[index]);
     }
-
     const handleDelete = (id: string) => {
         dispatch(Actions.toggleDimmer());
-        console.log("delete");
         setConfirmPopup(id);
     }
 
     const handleCloseConfirm = (closeDimmer: boolean = true) => {
-        console.log("closeDimmer");
-        console.log(closeDimmer);
         if(closeDimmer) dispatch(Actions.toggleDimmer());
         setConfirmPopup("");
     }

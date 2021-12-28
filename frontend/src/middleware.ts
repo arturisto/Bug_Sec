@@ -3,6 +3,7 @@ import axios from "axios";
 import  {setTotalDocumentsForSelection, setApiError }   from "./store/actions/api_actions";
 import {APIs} from "./types/APIs";
 import { Middleware  } from 'redux';
+import { createImportSpecifier } from "typescript";
 
 const apiMiddleware: Middleware = ({ dispatch }) => next => async action => {
     next(action);
@@ -29,7 +30,7 @@ const apiMiddleware: Middleware = ({ dispatch }) => next => async action => {
                     console.log(amountOfData);
                     dispatch(setTotalDocumentsForSelection(amountOfData));
                 }
-                dispatch(onSuccess(data));
+                dispatch(onSuccess(result.data));
             } else {
                 dispatch(setApiError(result.data));
             }
